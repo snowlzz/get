@@ -1,0 +1,98 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1400px) {
+  .reviews {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'SF Pro Display';
+    background: linear-gradient(90deg, #212529 50%, #ffc124 50%);
+  }
+}
+
+@media (min-width: 1400px) {
+  .i-banner {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    /*padding-right: calc(var(--bs-gutter-x) * .5);*/
+    /*padding-left: calc(var(--bs-gutter-x) * .5);*/
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+  }
+}
+
+.bg-white {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important;
+}
+
+@media (max-width: 360px) {
+  .bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important;
+    /*padding: 20px;*/
+  }
+}
+
+@media (max-width: 300px) {
+  img, svg {
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 360px) {
+  img, svg {
+    vertical-align: middle;
+    margin-top: 0px;
+  }
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+@media (min-width: 1400px) {
+  .cj5 {
+    vertical-align: middle;
+    padding-top: 198px;
+  }
+}
+
+@media (min-width:768px) {
+  .p-md-5 {
+    padding: 25px!important;
+  }
+}
+
+@media (max-width: 360px) {
+  h2 {
+    font-family: 'SF Pro Display';
+    margin: 15px;
+    margin-right: 20PX;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+    /*align-items: start;*/
+    text-align: left!important;
+  }
+}
+
+@media (max-width: 360px) {
+  .text-center {
+    text-align: left!important;
+  }
+}
+
